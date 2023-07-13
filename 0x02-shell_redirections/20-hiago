@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name "c" -delete | find -name "C" -delete
+tr "C" "" | tr "c" ""
